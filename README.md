@@ -30,5 +30,29 @@ cd python-basic
 ```bash
 python simple_calculator.py
 ```
+---
 
+### 2. String Manipulation 
+It's count the number of vowels in a user provided sentence 
+
+#### Features 
+- take sentence input from users
+- count the total numbers of vowel in sentence 
+
+### Getting started 
+
+#### Clone the repository 
+```bash
+git clone git@github.com:susmeeta223/python-basic.git
+```
+
+#### Navigate to the project directory
+```bash
+cd python-basic
+```
+
+#### Run the calculator
+```bash
+python string_manipulation.py
+```
 ---
