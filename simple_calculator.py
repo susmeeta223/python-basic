@@ -1,5 +1,16 @@
-num1 = float(input("Enter your first number: "))
-num2 = float(input("Enter your second number: "))
+num1 = input("Enter your first number: ")
+try: 
+    num1 = float(num1)
+except ValueError:
+    print("Invalid input, please enter a valid number")
+    exit()
+
+num2 = input("Enter your second number: ")
+try:
+    num2 = float(num2)
+except ValueError:
+    print("Invalid input, please enter a valid number")
+    exit()
 operations = input("Enter your operator(+,-,*,/,%): ")
 
 if operations == "+" :
@@ -9,9 +20,15 @@ elif operations == "-" :
 elif operations == "*" :
     result = num1 * num2
 elif operations == "/" :
-    result = num1 / num2
+    try:
+        result = num1/num2
+    except ZeroDivisionError:
+        result = "error : cannot be divided by zero"
 elif operations == "%" :
-    result = num1 % num2
+    try:
+        result = num1 % num2
+    except ZeroDivisionError:
+        result = "error : cannot be modulo by zero"
 else : 
     result = "Invalid operation"
 
