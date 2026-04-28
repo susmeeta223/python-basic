@@ -55,4 +55,30 @@ cd python-basic
 ```bash
 python string_manipulation.py
 ```
+
+### 3. Conditional Logic 
+It provides a number guessing game where the user guesses a number between 1 and 100
+
+#### Features 
+- Takes a guessing number input from the user
+- Compares the guessed number with the target number
+- Gives hints (too high / too low) using conditions
+- Stops when the correct number is guessed
+
+### Getting started 
+
+#### Clone the repository 
+```bash
+git clone git@github.com:susmeeta223/python-basic.git
+```
+
+#### Navigate to the project directory
+```bash
+cd python-basic
+```
+
+#### Run the conditional logic program
+```bash
+python conditional_logic.py
+```
 ---
